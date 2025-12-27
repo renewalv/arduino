@@ -18,5 +18,21 @@
         "titleBar.inactiveBackground": "#143b1299",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#143b12"
+    "peacock.color": "#143b12",
+    "C_Cpp.default.includePath": [
+        "C:\\Users\\vladi\\.platformio\\**",
+        "C:\\Users\\vladi\\.platformio\\*",
+        "C:\\Users\\vladi\\.platformio\\",
+        "C:\\Users\\vladi\\.platformio",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\cores\\esp32",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\cores\\esp32\\",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\cores\\esp32\\*",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\cores\\esp32\\**",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\libraries",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\libraries\\",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\libraries\\*",
+        "C:\\Users\\vladi\\.platformio\\packages\\framework-arduinoespressif32\\libraries\\**"
+    ],
+    "cmake.sourceDirectory": "E:/code/arduinolibs/arduino/extra"
 }
