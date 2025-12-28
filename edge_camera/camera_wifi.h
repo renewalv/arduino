@@ -137,10 +137,31 @@ void initWiFi()
 
     case WIFI_MODE_AP:
         log_i("WiFi Mode: AP");
+        if (savedSSID.length() <= 0)
+        {
+            ssid = "ESP32-CAM";
+        }
+        else
+        {
+            ssid = savedSSID.c_str();
+        }
+
+        if (savedPASS.length() <= 0)
+        {
+            password = "";
+        }
+        else
+        {
+            password = savedPASS.c_str();
+        }
+        
         if (!WiFi.softAP(ssid, password)) {
             log_e("Soft AP creation failed.");
             while(1); // todo add reboot or other action
         }
+        IPAddress myIP = WiFi.softAPIP();
+        Serial.print("AP IP address: ");
+        Serial.println(myIP);
         break;
     }
 
